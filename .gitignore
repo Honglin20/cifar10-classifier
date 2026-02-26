@@ -1,0 +1,43 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# PyTorch
+*.pth
+*.pt
+
+# Data directory
+data/
+
+# Checkpoints (keep directory, ignore files)
+checkpoints/*
+!checkpoints/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Results
+results.png
+predictions.png
